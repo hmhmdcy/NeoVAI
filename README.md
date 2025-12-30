@@ -18,6 +18,7 @@ This template should help get you started developing with Tauri + Vue 3 in Vite.
 - [npm](https://www.npmjs.com/) (v7+) - Node.js 包管理器
 - [Rust](https://www.rust-lang.org/) (v1.89+) - 系统编程语言
 - [Cargo](https://doc.rust-lang.org/cargo/) (v1.89+) - Rust 包管理器
+- [Python]([https://doc.rust-lang.org/cargo/](https://www.python.org/downloads/release/python-31210/)) (v3.12) #实测过高或过低版本都存在兼容性问题
 
 ## 快速开始
 

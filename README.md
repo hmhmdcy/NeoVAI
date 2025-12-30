@@ -34,7 +34,7 @@ npm install three
 npm install axios
 
 ## 后端依赖
-pip install -r src-tauri/resources/python/requirements.txt
+pip install -r src-tauri/python/requirements.txt
 ```
 
 ## 图标库
@@ -153,7 +153,7 @@ npm run tauri -- --help
 ## 打包虚拟环境
 1. python -m venv env_name
 2. env_name\Scripts\activate
-3. pip install -r src-tauri/resources/python/requirements.txt
+3. pip install -r src-tauri/python/requirements.txt
 4. deactivate
 
 ## Recommended IDE Setup

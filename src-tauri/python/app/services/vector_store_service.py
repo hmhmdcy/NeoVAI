@@ -164,7 +164,7 @@ class VectorStoreService:
                         else:
                             # 5. 检查HuggingFace缓存路径
                             hf_cache_path = os.path.join(os.path.expanduser('~'), '.cache', 'huggingface', 'hub', 
-                                                       f'models--{self.embedder_model.replace('/', '--')}', 'snapshots')
+                                                       f'models--{self.embedder_model.replace("/", "--")}', 'snapshots')
                             if os.path.exists(hf_cache_path):
                                 model_path = hf_cache_path
             
